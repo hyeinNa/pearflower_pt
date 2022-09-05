@@ -1,0 +1,61 @@
+:root {
+    --item-color: #F5ECE6;
+}
+
+.game-container {
+    margin: 8vw 0px;
+}
+
+#gameLabel {
+    width: 35vw;
+    display: block;
+    margin: 0px auto;
+}
+
+.game-img {
+    background-color: var(--item-color);
+    width: 28vw;
+    height: 28vw;
+    border-radius: 22px;
+}
+
+.game-howtoplay {
+    background-color: var(--item-color);
+    width: 55vw;
+    height: 28vw;
+    border-radius: 22px;
+}
+
+.game-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 8vw 0px;
+}
+
+@media screen and (min-width: 451px) {
+    .game-box {
+        flex-direction: column;
+    }
+
+    .game-img {
+        width: 26vw;
+        height: 26vw;
+    }
+
+    .game-howtoplay {
+        width: 26vw;
+        height: 12vw;
+        margin-top: 29px;
+    }
+
+    #gameLabel {
+        margin-top: 88px;
+        width: 25vw;
+    }
+
+    .game-list-container {
+        display: flex;
+        justify-content: space-around;
+        /*margin: 0px 6vw;*/
+    }
+}

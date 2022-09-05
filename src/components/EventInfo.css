@@ -1,0 +1,37 @@
+.info-top-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-container {
+    width: 85vw;
+    height: 150vw;
+    background-color: #F5ECE6;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info-progress-back {
+    margin-top: 6vw;
+    width: 70vw;
+}
+
+.info-select-img {
+    width: 95vw;
+}
+
+@media screen and (min-width: 451px) {
+    .info-container {
+        width: 67.5vw;
+        height: 39.5vw;
+
+    }
+
+    #info-progress-back {
+        width: 67.5vw;
+        margin-top: 2vw;
+    }
+}

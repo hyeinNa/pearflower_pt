@@ -1,0 +1,26 @@
+.header-container{
+    margin: 8vw 0px;
+}
+#Nav{
+    width:10vw;
+}
+#logoKR{
+    width: 22vw;
+}
+#dday{
+    width: 20vw;
+}
+.header-list-container{
+    display: flex;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    padding-left: 40%;
+}
+/*.logoKR{
+
+}
+.dday{
+
+}*/
